@@ -6,7 +6,7 @@ for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        matrix[i, j] = new Random().Next(-100, 100);
+        matrix[i, j] = new Random().NextDouble()*100 - 100;
         Console.Write(matrix[i,j]+" ");
     }
 Console.WriteLine();
